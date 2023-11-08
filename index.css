@@ -1,25 +1,54 @@
 body {
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #353B3C;
-    line-height: 1.5;
-    color:#EEF0F2;
+    background-color: #e9f3f5;
+    margin: 0px;
 }
 
-h1 {
-    background-color: #5a92c3;
+.card {
+    color:#000000;
+    padding: 10px;
+    margin: 0px 250px;
+    border: solid 5px #7AC3CD;
+    border-radius: 10px;
+    background-color: #D6EDF0;
 }
 
-.recipe-links ul{
-    font-size: large;
-    list-style: none;
+.tittle {
+    text-align: center;
+    background-color: #7AC3CD ;
+    color: #0B1C1E;
+    padding: 5px 0px;
+    margin-top: 0px;
 }
 
-a {
-    color: #EEF0F2;
-}
-
-p {
-    font-size: large;
+.description p {
+    font-size: 24px;
+    text-align: center;
     font-weight: 700;
+}
+
+.recipe-links ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    padding: 18px;
+}
+
+li {
+    padding-bottom: 10px;
+    text-align: center;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+li > a {
+    text-decoration: none;
+    color: #0c3036;
+}
+
+li > a:hover {
+    text-decoration: none;
+    color: #237f8f;
 }
