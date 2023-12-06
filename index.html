@@ -1,21 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-         <title>Odin Recipes</title>
-        <link rel="stylesheet" href="index.css"/>
-    </head>
-    <body>
-        <h1 class="tittle">Odin's Confectionery</h1>
-        <div class="card">
-            <div class="description">
-                <p>Menu</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Recipes</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="header padding">
+        <h4>ODIN RECIPES</h4>
+        <ul class="header-links">
+            <li><a class="orange-pad" href="#">Home</a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+        <button class="header-button">Sign In</button>
+    </div>
+
+    <div class="hero-container padding">
+        <div class="hero-row">
+            <p class="hero-bold"> Learn All Types Of <span class="hero-thin">Cooking</span></p>
+            
+        </div>
+        <div class="hero-row">
+            <p class="hero-thin">With<span class="hero-bold"> Odin Recipes</span></p>
+            
+         </div>
+    </div>
+
+    <div class="descr-container padding">
+        <div class="left-text">
+            <div class="text-explore">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <button class="descr-button">Explore More</button>
             </div>
-            <ul>
-                <li><a href="recipes/cinnabon.html">Cinnamon Bun Recipe</a></li>
-                <li><a href="recipes/strwbrrycake.html">Strawberry Crunch Poke Cake</a></li>
-                <li><a href="recipes/creamsicles.html">Homemade Creamsicles</a></li>
-            </ul>
-        </div>   
-    </body>
+            <div class="container-numbers">
+                <div class="numbers">
+                    <h4>300+</h4>
+                    <p>Food Recipes</p>
+                </div>
+                <div class="numbers">
+                    <h4>3.2K+</h4>
+                    <p>Users Every Day</p>
+                </div>
+                <div class="numbers">
+                    <h4>300K+</h4>
+                    <p>Happy Customers</p>
+                </div>
+            </div>
+        </div>
+        <img class="cow-img" src="/images/cooking.jpg">
+    </div>
+    
+    <div class="recent padding">
+        <h1>Our <span class="recent-orange">Recent</span> Recipes</h1>
+        <div class="card-container">
+            <div class="card">
+                <p class="head-center basecolor">Honorably mention</p>
+                <img src="/images/cinnamonrow.jpg" alt="cinnamon bun">
+                <h4>Cinnamon Bun</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button class="card-button"><a href="./recipes/cinnabon.html">Start Cooking</a></button>
+            </div>
+            <div class="card orange-card">
+                <p class="head-center">Most popular</p>
+                <img src="./images/creamsiclesrow.jpg" alt="creamsicles">
+                <h4>Creamsicles</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button class="card-button"><a href="./recipes/creamsicles.html">Start cooking</a></button>
+            </div>
+            <div class="card">
+                <p class="head-center basecolor">Editor's choice</p>
+                <img src="/images/strawberryrow.jpg" alt="strawberry cake">
+                <h4>Strawberry Cake</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button class="card-button"><a href="./recipes/Strwbrrycake.html">Start cooking</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">Copyright © The Odin Project 2023</div>
+</body>
 </html>
