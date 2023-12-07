@@ -62,7 +62,7 @@ a {
     border-radius: 6px;
     padding: 5px 10px;
     color: white;
-}   
+}  
 
 p {
     margin: 0;
@@ -136,10 +136,17 @@ p {
     padding: 12px 25px;
     border:0;
     font-size: 18px;
-    font-weight: 500;
-    margin: 20px 0px;
+    font-weight: 400;
+    margin: 20px 15px 20px 0px;
     max-width: 200px;
     margin-top: 50px;
+    
+}
+
+.orange-button {
+    background-color: #EA944D;
+    color: white;
+    font-weight: 500;
 }
 
 .numbers {
@@ -182,7 +189,7 @@ p {
     max-width: 250px;
     border-radius: 8px;
     gap: 20px;
-    padding: 40px;
+    padding: 30px 40px 40px 40px;
     background-color: #F2D9D2;
 }
 
@@ -211,7 +218,7 @@ p {
     padding: 12px 25px;
     border:0;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     max-width: 200px;
     margin-top: 20px;
 }
@@ -225,8 +232,12 @@ p {
     background-color: #F7D4B6;
 }
 
-.orange-card > button {
+.orange-card button {
     background-color: #EA944D;
+    font-weight: 500;
+}
+
+.orange-card a {
     color: white;
 }
 
