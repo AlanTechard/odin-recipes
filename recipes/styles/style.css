@@ -162,6 +162,7 @@ a {
     padding: 40px;
     gap: 20px;
     height: fit-content;
+    width: 2000px;
 }
 
 .common-container img {
@@ -215,7 +216,6 @@ a {
     text-align: center;
     border-top: #ea944d solid 1px;
 }
-
 
 .recommended-container button {
     color: white;
