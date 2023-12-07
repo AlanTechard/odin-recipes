@@ -160,6 +160,7 @@ p {
     display: flex;
     max-width: 400px;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 .recent {
@@ -177,7 +178,8 @@ p {
 
 .card-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .card {
@@ -185,7 +187,7 @@ p {
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    margin: 0 30px 30px 30px;
+    margin: 0 0 30px 0;
     max-width: 250px;
     border-radius: 8px;
     gap: 20px;
@@ -208,6 +210,7 @@ p {
     width: 100%;
     object-fit: cover;
     height: 100px;
+    border-radius: 8px;
 
 }
 

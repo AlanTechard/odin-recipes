@@ -1,53 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #e9f3f5;
-    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
-.card-recipe {
-    color:#000000;
+.padding {
+    padding: 20px 20%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fae3d1;
+}
+
+.header h4 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    gap:30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-button {
+    color: white;
+    background-color: #ea944d;
+    border-radius: 8px;
+    padding: 12px 25px;
+    border:0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+a {
+    color: #251304;
+    text-decoration: none;
+}
+
+.header-links a {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.orange-pad {
+    background-color:#ea944d;
+    border-radius: 6px;
+    padding: 5px 10px;
+    color: white;
+}  
+
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fae3d1;
+}
+
+.hero-container h1 {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 40px;
+}
+
+.hero-container img {
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.hero-info {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-info a {
+    color: #ea944d;
+}
+
+.hero-info li {
+    display: flex;
+    gap: 5px;
+}
+
+.hero-info li img {
+    width: 16px;
+    height: 16px;
+}
+
+.hero-title {
+    margin-bottom: 20px;
+    color: #251304;
+}
+
+.hero-title ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    gap:30px;
+    align-items: center;
+}
+
+.hero-overview {
+    display: flex;
+    justify-content: space-between; 
+    border-radius: 8px;
+    padding: 20px 10px;
+    color: #251304;
+}
+
+.hero-overview p {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px 0px;
+}
+
+.hero-overview h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0 0 0;
+}
+
+.common-container {
+    display: flex;
+    background-color: #fae3d1;
+    gap:50px;
+    color: #251304;
+    font-size: 18px;
+}
+
+.common-container h2 {
+    margin: 0;
+}
+
+.common-container h4 {
+    margin: 0;
+}
+
+.common-container p {
+    margin: 0;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    background-color:#F7D4B6;
+    border-radius: 8px;
+    padding: 40px;
+    gap: 20px;
+    height: fit-content;
+}
+
+.common-container img {
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.description h2 {
+    font-size: 24px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.steps h2 {
+    color: #ea944d;
+}
+
+.steps {
+    display: flex;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.ingridients {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4C39A;
+    border-radius: 8px;
+    padding: 40px;
+    gap: 15px
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+} 
+
+.recommended-container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+    gap: 20px;
+    text-align: center;
+    border-top: #ea944d solid 1px;
+}
+
+
+.recommended-container button {
+    color: white;
+    background-color: #ea944d;
+    border-radius: 8px;
     padding: 10px;
-    margin: 0px 250px;
-    border: solid 5px #7AC3CD;
-    border-radius: 10px;
-    background-color: #D6EDF0;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    margin: 20px 0;
 }
 
-.recipe-head {
-    text-align: center;
-    background-color: #7AC3CD ;
-    color: #0B1C1E;
-    padding: 15px 0px;
-    margin-top: 0px;
-    margin-bottom: 40px;
+.recommended a {
+    color: white;
 }
 
-img {
-    height: 299px;
-    width: auto;
+.recommended {
+    border-bottom: #ea944d 1px solid;
 }
 
-h2 {
-    text-align: center;
-}
-
-.end-links p {
-    text-align: center;
-    background-color: #7AC3CD;
-    margin: 0px;
-    padding: 7px;
-}
-
-.end-links {
-    margin-top: 35px;
-}
-
-.end-links a {
-    text-decoration: none;
-    color: #0c3036;
-}
-
-.end-links a:hover {
-    text-decoration: none;
-    color: #498691;
+h3 {
+    margin: 10px 0;
 }
